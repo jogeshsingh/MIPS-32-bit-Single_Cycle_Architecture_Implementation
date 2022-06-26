@@ -14,6 +14,9 @@ Following things are required to get through this Project -:
   In MIPS , there are basically three kind of instruction format.
   R-type , I-type , J-type .
   # R-type 
+  This is also called Register addressing mode , operations like data processing are basically carried out using this instruction (ALU operations --like Subtraction , addition , logical OR, logical AND etc.)
+  
+![Screenshot 2022-06-26 150955](https://user-images.githubusercontent.com/98607828/175808545-40ffd0df-f0c8-4b18-a997-5b18ac779dd3.jpg)
 
 # Architecture
 ![Screenshot 2022-06-26 130614](https://user-images.githubusercontent.com/98607828/175804375-ceb35435-219e-42f3-87d5-7ab6588e048b.jpg)
