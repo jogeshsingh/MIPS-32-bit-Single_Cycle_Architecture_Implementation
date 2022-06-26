@@ -36,6 +36,11 @@ Following things are required to get through this Project -:
 
 # Simulation
 
+
+
+![sim2](https://user-images.githubusercontent.com/98607828/175819264-ea26e036-b392-4a29-9026-5dfb44aa7ab8.jpg)
+
+
 --first instruction is at rom[0] = 0226020 H (Which is already been depicted in Instuction memory 
    pointed as R-type instruction for add.here opcode is 000000 for R-type while control bits for slection 
    between Load/Store or R-type is different Opfield is 10 for R-type (Addition)
@@ -48,12 +53,10 @@ Following things are required to get through this Project -:
  --third instruction is add immediate (I-type) in which offset is 1148 while rs(source reg ) is storing 12 at
    rs[14] loc. which computes the result as 1160 and stores back to reg file loc at Rt[0].
    
-   
-![Screenshot 2022-06-26 165614](https://user-images.githubusercontent.com/98607828/175812482-cc58eadd-cac1-45d7-9972-93d19a8890c0.jpg)
 
 --fourth instruction is store word(in Sim. Window (aca4001H)) ( mem($rs[source reg addr]+offset) <= rt(data to be stored from 
 destination address regster to the address formed by rs+offset).Here offset is 1 and rs is 1111(15) as pointed by the
 address of this in instruction memory which adds upto 16 (this forms the address location in data memory) and looks for 
 the dest.reg address location to retrieve the data as mentioned in instruction it is (rt=01000) which is having 1 as data value , stored to WR_mem.
  
---fifth instruction is Load word (8f02002H)  ( rt <= mem(rs[reg addr] + offset)) data from memory address pointed by (source operand reg(rs) data from its location + offset ) to the reg file .
+--fifth instruction is Load word (8f02002H)  ( rt <= mem(rs[reg addr] + offset)) data from memory address pointed by (source operand reg(rs) data from its location + offset ) to the reg file . in this source rs = 11000(24) which is storing value as 0 while offset is 2 which adds up to 2 and this is our memory address and we retrieve the contents from data memory loc[2] to dest.reg (read the contents from memory and store back to reg file ) as 63 . 
