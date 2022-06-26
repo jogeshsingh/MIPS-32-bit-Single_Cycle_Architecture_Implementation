@@ -1,6 +1,5 @@
 # MIPS32-bit-Single_Cycle_Architecture_Implementation
 
-# Description
 Designed MIPS32(Microprocessor without Interlocked Pipelined Stages)bit single cycle architecture.
 Following things are required to get through this Project -:
      # Digital Logic Design # Computer Architecture (Basic) # Verilog HDL (Or VHDL , SYSTEM VERILOG)  # Synthesis software(XILINX VIVADO OR Quartus intel prime        lite(these both are free) ) # Simulation Tool(Xsim , Modelsim)
