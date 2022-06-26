@@ -48,4 +48,4 @@ Following things are required to get through this Project -:
    rs[14] loc. which computes the result as 1160 and stores back to reg file loc at Rt[0].
    
    
-        ![Screenshot 2022-06-26 165614](https://user-images.githubusercontent.com/98607828/175811985-53cce4e9-a3fa-41ea-9a83-dc41932bf52c.jpg)
+![Screenshot 2022-06-26 165614](https://user-images.githubusercontent.com/98607828/175812482-cc58eadd-cac1-45d7-9972-93d19a8890c0.jpg)
