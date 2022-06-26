@@ -42,13 +42,13 @@ Following things are required to get through this Project -:
 
 
 --first instruction is at rom[0] = 0226020 H (Which is already been depicted in Instuction memory 
-   pointed as R-type instruction for add.here opcode is 000000 for R-type while control bits for slection 
+   pointed as R-type instruction for add. Here opcode is 000000 for R-type while control bits for selection 
    between Load/Store or R-type is different Opfield is 10 for R-type (Addition)
    and function field opcode is also different which in case of Load/Store/Branch/Jump is not required . 
    in the following , picture You can see the content stored in RD1 reg and RD2 reg is Stored and added to
    store the result back from alu_out to reg file  loc(R[12]).
 
---second instruction is basically logically and operation (33) & (15) = 1 or (100001)&(001111)  ---alu_result = 1
+--second instruction is basically logically AND operation (33) & (15) = 1 or (100001)&(001111)  ---alu_result = 1
  
  --third instruction is add immediate (I-type) in which offset is 1148 while rs(source reg ) is storing 12 at
    rs[14] loc. which computes the result as 1160 and stores back to reg file loc at Rt[0].
