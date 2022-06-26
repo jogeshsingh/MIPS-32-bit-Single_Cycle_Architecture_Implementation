@@ -33,7 +33,8 @@ Following things are required to get through this Project -:
 
 ![Screenshot 2022-06-26 130157](https://user-images.githubusercontent.com/98607828/175804284-ea8c9482-dd96-43f6-9bf6-933bca9b1de1.jpg)
 
-#Simulation
+# Simulation
+
 --first instruction is at rom[0] = 0226020 H (Which is already been depicted in Instuction memory pointed as R-type instruction for add.
         here opcode is 000000 for R-type while control bits for slection between Load/Store or R-type is different Opfield is 10 for R-type (Addition)
         and function field opcode is also different which in case of Load/Store/Branch/Jump is not required . 
