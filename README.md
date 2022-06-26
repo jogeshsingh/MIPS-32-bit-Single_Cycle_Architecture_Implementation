@@ -27,8 +27,11 @@ Following things are required to get through this Project -:
 ![Screenshot 2022-06-26 151007](https://user-images.githubusercontent.com/98607828/175808824-04f8efe2-f3dc-4887-992e-a673681b433a.jpg)
 
 # J-type
- it is also called as Pseudo-addressing mode since the instruction can point to any 2^n location inside of a memory using jump instruction. in this opcode  field is 6 bit and address field has 26 bits in which the 
+ it is also called as Pseudo-addressing mode since the instruction can point to any 2^n location inside of a memory using jump instruction. in this opcode is 6 bit (here 000010(2))and address field has 26 bits(in which the upper 4 bit of program counter are concatenated with 26 bit address field ) which is shifted left by 2 to multiple it with 4 so the instruction that it points to remains byte addressable.
+ 
+ 
   
+![Screenshot 2022-06-26 151021](https://user-images.githubusercontent.com/98607828/175809251-74b6d190-7b09-44cf-95a7-ab7484b6d855.jpg)
 
 # Architecture
 ![Screenshot 2022-06-26 130614](https://user-images.githubusercontent.com/98607828/175804375-ceb35435-219e-42f3-87d5-7ab6588e048b.jpg)
