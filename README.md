@@ -20,6 +20,7 @@ Following things are required to get through this Project -:
   # I-type
   This is also called as Immediate addressing . It is used for loading an immmediate data to particular register and also used for Load(laoding the data from memory and storing it inside of register file dest_reg <-- rs_source(mem_offset)) or Store(Storing the value pointed by reg_source +offset ->mem(dest_reg)). Branch Instruction(PC-relative addressing) could also be implemented using I-type instruction the only chnage is in opcode field.
 
+![Screenshot 2022-06-26 172836](https://user-images.githubusercontent.com/98607828/175813009-dbca3a94-3c2d-4c5b-89f9-1cfd5b20c001.jpg)
 
 # J-type
  it is also called as Pseudo-addressing mode since the instruction can point to any byte addressable location inside of a memory using jump instruction. in this opcode is 6 bit (here 000010(2))and address field has 26 bits(in which the upper 4 bit of program counter are concatenated with 26 bit address field ) which is shifted left by 2 to multiple it with 4 so the instruction that it points to remains byte addressable.
