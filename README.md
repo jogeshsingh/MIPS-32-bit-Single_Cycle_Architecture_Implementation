@@ -1,4 +1,4 @@
-# MIPS32-bit-Single_Cycle_Architecture_Implementation_Using_Verilog_HDL
+# MIPS32-bit-Single_Cycle_Architecture_Implementation
 
 
 ![Screenshot 2022-06-26 130614](https://user-images.githubusercontent.com/98607828/175804375-ceb35435-219e-42f3-87d5-7ab6588e048b.jpg)
