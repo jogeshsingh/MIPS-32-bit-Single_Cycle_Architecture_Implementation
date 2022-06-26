@@ -32,3 +32,10 @@ Following things are required to get through this Project -:
 ![Screenshot 2022-06-26 130614](https://user-images.githubusercontent.com/98607828/175804375-ceb35435-219e-42f3-87d5-7ab6588e048b.jpg)
 
 ![Screenshot 2022-06-26 130157](https://user-images.githubusercontent.com/98607828/175804284-ea8c9482-dd96-43f6-9bf6-933bca9b1de1.jpg)
+
+#Simulation
+--first instruction is at rom[0] = 0226020 H (Which is already been depicted in Instuction memory pointed as R-type instruction for add.
+        here opcode is 000000 for R-type while control bits for slection between Load/Store or R-type is different Opfield is 10 for R-type (Addition)
+        and function field opcode is also different which in case of Load/Store/Branch/Jump is not required . 
+        in the following , picture You can see the content stored in RD1 reg and RD2 reg is Stored and added to store the result back from alu_out to reg file loc(R[12]).
+        ![Screenshot 2022-06-26 165614](https://user-images.githubusercontent.com/98607828/175811985-53cce4e9-a3fa-41ea-9a83-dc41932bf52c.jpg)
