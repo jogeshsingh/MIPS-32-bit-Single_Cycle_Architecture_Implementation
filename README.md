@@ -10,7 +10,7 @@ Following things are required to get through this Project -:
        -Simulation Tool(Xsim , Modelsim)
        
 # ISA
-  MIPS is basically the kind of RISC-philosphy , and have instructions particularly similar to RISC(Reduced instruction set architecture ) and acquired by MIPS technologies.
+  MIPS is basically the kind of RISC-philosphy , and have instructions particularly similar to RISC(Reduced instruction set architecture ) but differs in instruction      width for some operations .
   In MIPS , there are basically three kind of instruction format.
   R-type , I-type , J-type .
   # R-type 
@@ -31,7 +31,6 @@ Following things are required to get through this Project -:
  ![jump](https://user-images.githubusercontent.com/98607828/175809280-7bdf28cd-9850-4764-aa86-ff619dda153d.jpg)
 
   
-![Screenshot 2022-06-26 151021](https://user-images.githubusercontent.com/98607828/175809251-74b6d190-7b09-44cf-95a7-ab7484b6d855.jpg)
 
 # Architecture
 ![Screenshot 2022-06-26 130614](https://user-images.githubusercontent.com/98607828/175804375-ceb35435-219e-42f3-87d5-7ab6588e048b.jpg)
