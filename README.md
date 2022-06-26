@@ -22,9 +22,13 @@ Following things are required to get through this Project -:
  for e.g ADD R1 , R2,  R3 . Here ADD is opcode , while  R2 AND R3 are source operands(Register addresses) and R1 is destination Register address , the data which R2 and  R3 hold in particular address is stored in address pointed by R1 (destination Reg address). 
  
   # I-type
-  This is also called as Immediate addressing . It is used for loading an immmediate data to particular register and also used for Load(laoding the data from memory and storing it inside of register file dest_reg <-- rs_source(mem_offset)) or Store(Storing the value pointed by reg_source +offset ->mem(dest_reg)). 
+  This is also called as Immediate addressing . It is used for loading an immmediate data to particular register and also used for Load(laoding the data from memory and storing it inside of register file dest_reg <-- rs_source(mem_offset)) or Store(Storing the value pointed by reg_source +offset ->mem(dest_reg)). Branch Instruction(PC-relative addressing) could also be implemented using I-type instruction the only chnage is in opcode field.
   
 ![Screenshot 2022-06-26 151007](https://user-images.githubusercontent.com/98607828/175808824-04f8efe2-f3dc-4887-992e-a673681b433a.jpg)
+
+# J-type
+ it is also called as Pseudo-addressing mode since the instruction can point to any 2^n location inside of a memory using jump instruction. in this opcode  field is 6 bit and address field has 26 bits in which the 
+  
 
 # Architecture
 ![Screenshot 2022-06-26 130614](https://user-images.githubusercontent.com/98607828/175804375-ceb35435-219e-42f3-87d5-7ab6588e048b.jpg)
