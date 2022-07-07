@@ -60,3 +60,9 @@ address of this in instruction memory which adds upto 16 (this forms the address
 the dest.reg address location to retrieve the data as mentioned in instruction it is (rt=01000) which is having 1 as data value , stored to WR_mem.
  
 --fifth instruction is Load word (8f02002H)  ( rt <= mem(rs[reg addr] + offset)) data from memory address pointed by (source operand reg(rs) data from its location + offset ) to the reg file . in this source rs = 11000(24) which is storing value as 0 while offset is 2 which adds up to 2 and this is our memory address and we retrieve the contents from data memory loc[2] to dest.reg (read the contents from memory and store back to reg file ) as 63 . 
+
+
+  # References 
+     1.  Computer Organization and Design : The Hardware/Software Interface , Fifth Edition(The Morgan Kaufmann series in Computer Architecture and Design)
+     2.  Computer Organization and Design (Hardware/Software Interface) RISC-V Edition by DAVID A. PATTERSON and JOHN L. HENNESSY  
+     3.  https://www.youtube.com/watch?v=CDO28Esqmcg&list=PLhwVAYxlh5dvB1MkZrcRZy6x_a2yORNAu
