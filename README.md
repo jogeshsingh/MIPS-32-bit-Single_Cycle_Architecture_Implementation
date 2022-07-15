@@ -1,6 +1,6 @@
 # MIPS32-bit-Single_Cycle_Architecture_Implementation
 
-Designed MIPS32(Microprocessor without Interlocked Pipelined Stages)bit single cycle architecture.
+Designed MIPS32(Microprocessor without Interlocked Pipelined Stages)bit Single Cycle Architecture.
 Following things are required to get through this Project -:
      # Digital Logic Design # Computer Architecture (Basic) # Verilog HDL (Or VHDL , SYSTEM VERILOG)  # Synthesis software(XILINX VIVADO OR Quartus intel prime        lite(these both are free) ) # Simulation Tool(Xsim , Modelsim)
        
@@ -41,7 +41,7 @@ Following things are required to get through this Project -:
 ![sim2](https://user-images.githubusercontent.com/98607828/175819264-ea26e036-b392-4a29-9026-5dfb44aa7ab8.jpg)
 
 
---first instruction is at rom[0] = 0226020 H (Which is already been depicted in Instuction memory 
+--first instruction is at rom[0] = 0226020 H (Which is already been depicted in Instruction memory 
    pointed as R-type instruction for add. Here opcode is 000000 for R-type while control bits for selection 
    between Load/Store or R-type is different Opfield is 10 for R-type (Addition)
    and function field opcode is also different which in case of Load/Store/Branch/Jump is not required . 
