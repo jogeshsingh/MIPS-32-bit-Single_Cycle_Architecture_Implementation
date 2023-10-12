@@ -30,7 +30,7 @@
 ![Screenshot 2022-06-26 172836](https://user-images.githubusercontent.com/98607828/175813009-dbca3a94-3c2d-4c5b-89f9-1cfd5b20c001.jpg)
 
 # J-type
- - it is also called as Pseudo-addressing mode since the instruction can point to any byte addressable location inside of a memory using jump instruction.
+ - it is also called as `Pseudo-addressing mode` since the instruction can point to any byte addressable location inside of a memory using jump instruction.
  -  in this opcode is 6 bit (here 000010(2))and address field has 26 bits(in which the upper 4 bit of program counter are concatenated with 26 bit address field ) which is shifted left by 2 to multiple it with 4 so the instruction that it points to remains byte addressable.
  
  ![jump](https://user-images.githubusercontent.com/98607828/175809280-7bdf28cd-9850-4764-aa86-ff619dda153d.jpg)
