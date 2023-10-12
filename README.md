@@ -14,7 +14,7 @@
        
 # ISA
   - MIPS is basically the kind of RISC-philosphy , and have instructions particularly similar to RISC(Reduced instruction set architecture ) but differs in instruction      width and branch equal for some operations .
-  - In MIPS , there are basically three kind of instruction format.
+  - In MIPS , there are basically `three` kinds of instruction format.
   - `R-type` , `I-type` , `J-type` .
   # R-type 
   -This is also called `Register addressing mode` , operations like data processing are basically carried out using this instruction (ALU operations --like Subtraction , addition , logical OR, logical AND etc.)
