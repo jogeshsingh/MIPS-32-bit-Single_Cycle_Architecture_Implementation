@@ -1,12 +1,16 @@
 # MIPS32-bit-Single_Cycle_Architecture_Implementation
 
 - Designed MIPS32(Microprocessor without Interlocked Pipelined Stages)bit Single Cycle Architecture.
-- Following things are required to get through this Project -:
-     `Digital Logic Design`
-     `Computer Architecture (Basic)`
-     `Verilog HDL (Or VHDL , SYSTEM VERILOG)`
-     `Synthesis software(XILINX VIVADO OR Quartus intel prime)` (these both are free))
-     `Simulation Tool(Xsim , Modelsim)`
+   - Following things are required to get through this Project -:
+        - `Digital Logic Design`
+
+        - `Computer Architecture (Basic)`
+
+        - `Verilog HDL (Or VHDL , SYSTEM VERILOG)`
+
+        - `Synthesis software(XILINX VIVADO OR Quartus intel prime)` (these both are free))
+
+        - `Simulation Tool(Xsim , Modelsim)`
        
 # ISA
   - MIPS is basically the kind of RISC-philosphy , and have instructions particularly similar to RISC(Reduced instruction set architecture ) but differs in instruction      width and branch equal for some operations .
