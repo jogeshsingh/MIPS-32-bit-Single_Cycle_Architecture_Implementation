@@ -25,7 +25,7 @@
  - for e.g `ADD R1 , R2,  R3` . Here `ADD` is opcode , while  `R2` AND `R3` are source operands(Register addresses) and `R1` is destination Register address , the data which `R2` and `R3` hold in particular address is stored in address pointed by `R1` (destination Reg address). 
  
   # I-type
-  - This is also called as `immediate addressing` . It is used for loading an immmediate data to particular register and also used for Load(laoding the data from memory and storing it inside of register file dest_reg <-- rs_source(mem_offset)) or Store(Storing the value pointed by reg_source +offset ->mem(dest_reg)). Branch Instruction(PC-relative addressing) could also be implemented using I-type instruction the only chnage is in opcode field.
+  - This is also called as `immediate addressing` . It is used for loading an immmediate data to particular register and also used for Load(laoding the data from memory and storing it inside of register file `dest_reg <-- rs_source(mem_offset))` or Store(Storing the value pointed by `reg_source +offset ->mem(dest_reg))`. Branch Instruction(PC-relative addressing) could also be implemented using I-type instruction the only chnage is in opcode field.
 
 ![Screenshot 2022-06-26 172836](https://user-images.githubusercontent.com/98607828/175813009-dbca3a94-3c2d-4c5b-89f9-1cfd5b20c001.jpg)
 
